@@ -26,3 +26,6 @@ class Player(Turtle):
             return True
         else:
             return False
+
+    def play(self):
+        pass
