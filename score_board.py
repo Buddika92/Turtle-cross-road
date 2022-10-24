@@ -7,7 +7,7 @@ class ScoreBoard(Turtle):
 
     def __init__(self) -> None:
         super().__init__()
-        self.current_level = 1
+        self.current_level = 1 
         self.color('black')
         self.hideturtle()
         self.penup()
@@ -28,4 +28,3 @@ class ScoreBoard(Turtle):
 
     def demo(self):
         pass
-    
